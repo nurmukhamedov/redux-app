@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "./counterSlice";
+import asyncFunction from "../../asyncComponent/asyncAction";
 
 const Counter = () => {
   const count = useSelector(state => state.counter.count);
