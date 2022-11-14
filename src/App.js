@@ -1,10 +1,5 @@
-import Counter from "./features/counter/Counter";
 function App() {
-  return (
-    <main>
-      <Counter />
-    </main>
-  );
+  return <main>Redux</main>;
 }
 
 export default App;
